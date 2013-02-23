@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width">
+   <link rel="stylesheet" type="text/css" href="style/ExifReader.css"/>
+   <script type="text/javascript" src="js/ExifReader.js"></script>
+   <script type="text/javascript" src="js/exif.js"></script>
+   <script type="text/javascript" src="js/binaryajax.js"></script>
+   <script type="text/javascript" src="js/activities.js"></script>
+   <title>Exif Reader</title>
+</head>
+<body>
+
+   <header>
+     <button id="btnMain"></button>
+     <ul id="install-add">
+        <li><button id="btnInstall">Install</button></li>
+        <li><button id="btnOpen"></button></li>
+     </ul>
+     <h1>Exif Reader</h1>
+   </header>
+
+   <div class="body">
+
+      <div class="ImagePane">
+         <img id="picture" exif="true" src="photos/b.jpg">
+      </div>
+
+	  
+	
+
+	   <div id="glasspane">
+		  <div id="title">Photo info</div>
+		  <div id="msg">
+			<ul>
+				<li><strong>Aperture :</strong><span id="aperture" />
+				</li>
+				<li><strong>Shutter Speed :</strong><span id="shutterspeed" />
+				</li>
+				<li><strong>ISO :</strong><span id="iso" />
+				</li>
+			</ul>
+		  </div>
+	   </div>
+
+	  
+   </div>
+
+  
+
+
+
+</body>
+</html>

@@ -1,0 +1,30 @@
+{
+    "name": "ExifReader",
+	"version" : "42",
+    "launch_path": "index2.html",
+    "description": "Just a simple app to read exif of a picture",
+    "icons": {
+        "16": "/applogos/logo16.png",
+        "32": "/applogos/logo32.png",
+        "48": "/applogos/logo48.png",
+        "64": "/applogos/logo64.png",
+        "128": "/applogos/logo128.png"
+    },
+    "developer": {
+        "name": "Gael MOTTE",
+        "url": "http://grainesdimages.insa-lyon.fr/"
+    },
+    "default_locale": "en",
+    "activities": {
+        "share": {
+            "href": "index2.html",
+            "disposition": "window",
+			"returnValue": true,
+            "filters": {
+                "type": [
+                    "image/*"
+                ]
+            }
+        }
+    }
+}
